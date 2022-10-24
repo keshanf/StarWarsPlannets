@@ -16,6 +16,9 @@
 		204CF90329058B5800710775 /* PlannetsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204CF90229058B5800710775 /* PlannetsTests.swift */; };
 		204CF90D29058B5800710775 /* PlannetsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204CF90C29058B5800710775 /* PlannetsUITests.swift */; };
 		204CF90F29058B5800710775 /* PlannetsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204CF90E29058B5800710775 /* PlannetsUITestsLaunchTests.swift */; };
+		204CF91C29058BAD00710775 /* PlannetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204CF91B29058BAD00710775 /* PlannetModel.swift */; };
+		204CF91E29058BD600710775 /* PlannetsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204CF91D29058BD600710775 /* PlannetsViewModel.swift */; };
+		20E73CFC2906475900760508 /* PlanetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E73CFB2906475900760508 /* PlanetView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,9 @@
 		204CF90829058B5800710775 /* PlannetsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlannetsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		204CF90C29058B5800710775 /* PlannetsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlannetsUITests.swift; sourceTree = "<group>"; };
 		204CF90E29058B5800710775 /* PlannetsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlannetsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		204CF91B29058BAD00710775 /* PlannetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlannetModel.swift; sourceTree = "<group>"; };
+		204CF91D29058BD600710775 /* PlannetsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlannetsViewModel.swift; sourceTree = "<group>"; };
+		20E73CFB2906475900760508 /* PlanetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,9 @@
 			children = (
 				204CF8EC29058B5500710775 /* PlannetsApp.swift */,
 				204CF8EE29058B5500710775 /* ContentView.swift */,
+				204CF91B29058BAD00710775 /* PlannetModel.swift */,
+				204CF91D29058BD600710775 /* PlannetsViewModel.swift */,
+				20E73CFB2906475900760508 /* PlanetView.swift */,
 				204CF8F029058B5800710775 /* Assets.xcassets */,
 				204CF8F529058B5800710775 /* Persistence.swift */,
 				204CF8F729058B5800710775 /* Plannets.xcdatamodeld */,
@@ -264,7 +273,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				204CF8F629058B5800710775 /* Persistence.swift in Sources */,
+				204CF91E29058BD600710775 /* PlannetsViewModel.swift in Sources */,
+				204CF91C29058BAD00710775 /* PlannetModel.swift in Sources */,
 				204CF8EF29058B5500710775 /* ContentView.swift in Sources */,
+				20E73CFC2906475900760508 /* PlanetView.swift in Sources */,
 				204CF8F929058B5800710775 /* Plannets.xcdatamodeld in Sources */,
 				204CF8ED29058B5500710775 /* PlannetsApp.swift in Sources */,
 			);
